@@ -13,8 +13,6 @@ export async function getSensors(): Promise<string[]> {
 
 	const parts = data.split('\n');
 
-	parts.pop();
-
 	return parts;
 }
 
